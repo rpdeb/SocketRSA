@@ -1,4 +1,4 @@
-# SocketRSA - Sistema de Socket com Criptografia RSA em C#
+# Socket RSA - Sistema de Socket com Criptografia RSA em C#
 
 # 1. Introdução
 Este projeto implementa um sistema de comunicação entre um servidor (Alice) e um cliente (Bob), utilizando sockets em C# para troca de mensagens. A segurança é garantida através da criptografia RSA, onde o servidor gera um par de chaves pública e privada. O cliente usa a chave pública para criptografar as mensagens enviadas ao servidor, que então as descriptografa utilizando sua chave privada.
